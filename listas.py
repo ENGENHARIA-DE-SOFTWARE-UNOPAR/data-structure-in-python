@@ -15,7 +15,8 @@ dicionario = {
     'A' :   'adenina',
     'T' :   'citosina',
     'T' :   'timina',
-    'G' :   'guanina'
+    'G' :   'guanina',
+    'nome'  :   'NATAN'
 }
 print(dicionario)
 
@@ -29,6 +30,8 @@ print(f'{lista_aninhada}\n')
 primeiro_elemento_lista = lista_mista[1] #O python inicia em 0
 print(f'Primeiro elemento da lista {primeiro_elemento_lista}\n')
 print(f'Primeiro elemento da segunda linha da lista aninhada:\t{lista_aninhada[1][0]}\n')
+print(len(lista_aninhada))#Quantas linhas possui
+print(len(lista_aninhada[0]))#Quantas elementos possui a linha de indice 0
 
 
 
@@ -52,3 +55,18 @@ print('\n\nRemovendo elementos')
 lista_numerica.remove(52)
 lista_mista.remove('Ogliari')
 print(f' Lista Numerica:\t{lista_numerica} e\n Lista mista:\t{lista_mista}')
+
+
+
+
+
+#Operando dicionarios
+
+chaves = dicionario.keys()
+print(f'\nAs chaves do dicionario é:\t{chaves}\n')
+valores = dicionario.values()
+print(f'\nOs valores do dicionario é:\t{valores}\n')
+
+#adicionando valores ao dic:
+dicionario |= {'O' : 85, 'date' : '2024-2-25'} # observe o operador de atualização (|)
+print(dicionario)
