@@ -36,7 +36,7 @@ class ListaEncadeada:
         lista.head = item
 
     
-    def remove(lista, valor):
+    def remove(self, lista, valor):
 
         # Verifica se o item a ser removido é o head
 
@@ -60,3 +60,12 @@ class ListaEncadeada:
         # Remove o item se ele for encontrado
         if navegar:
             before.next = navegar.next
+    
+    def busca(lista, valor):
+
+        navegar = lista.head
+
+        while navegar and navegar.data != valor:
+
+            navegar = navegar.next
+            return navegar

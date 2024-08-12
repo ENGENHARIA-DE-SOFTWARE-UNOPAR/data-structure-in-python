@@ -14,3 +14,6 @@ lista.insere(lista, "abobrinha ")
 lista.insere(lista, "banana")
 
 print(lista)
+
+lista.remove(lista, "detergente")
+print(lista)
