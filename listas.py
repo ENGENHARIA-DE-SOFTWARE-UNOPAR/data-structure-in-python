@@ -25,6 +25,10 @@ print(tupla)
 
 lista_aninhada = [[1, 2, 3], [85, 56, 98, 101]]#uma lista dentro de outra lista
 print(f'{lista_aninhada}\n')
+
+lista_de_conjuntos = {1, 2, 3, 4, 5}#Conjunto de valores não duplicados
+
+
 #Acesso as variaveis criadas
 
 primeiro_elemento_lista = lista_mista[1] #O python inicia em 0
