@@ -70,3 +70,8 @@ print(f'\nOs valores do dicionario é:\t{valores}\n')
 #adicionando valores ao dic:
 dicionario |= {'O' : 85, 'date' : '2024-2-25'} # observe o operador de atualização (|)
 print(dicionario)
+
+nome_dic = dicionario.get('O')#pega o valor do dic
+print(nome_dic)
+dicionario.pop('O')# remove o valor e a chave
+print(dicionario)
