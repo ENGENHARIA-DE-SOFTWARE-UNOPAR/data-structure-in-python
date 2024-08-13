@@ -21,3 +21,4 @@ print('\nMinha fila é:', list(fila)) #Imprimi valores da fila
 elemento_retirado = fila.popleft() #remove o primeiro elemento
 print('Elemento removido da fila:\t', elemento_retirado)
 print('\nMinha fila é:', list(fila)) #Imprimi valores da fila
+
